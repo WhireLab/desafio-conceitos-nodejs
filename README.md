@@ -28,19 +28,17 @@
 
 ## :rocket: Sobre o desafio
 
-Nesse desafio, você deve criar uma aplicação para treinar o que você aprendeu até agora no Node.js!
-
-Essa será uma aplicação para armazenar repositórios do seu portfólio, que irá permitir a criação, listagem, atualização e remoção dos repositórios, e além disso permitir que os repositórios possam receber "likes".
+Esta será uma aplicação para armazenar repositórios do seu portfólio, que irá permitir a criação, listagem, actualização e remoção dos repositórios, e além disso permitir que os repositórios possam receber "likes".
 
 ### Template da aplicação
 
-Para te ajudar nesse desafio, criamos para você um modelo que você deve utilizar como um template do Github.
+Para lhe ajudar neste desafio, criamos um modelo que deve utilizar como um template do Github.
 
 O template está disponível na seguinte url: **[Acessar Template](https://github.com/WhireLab/whirelab-template-conceitos-nodejs)**
 
 <!-- **Dica**: Caso não saiba utilizar repositórios do Github como template, temos um guia em **[nosso FAQ](https://github.com/Rocketseat/bootcamp-gostack-desafios/tree/master/faq-desafios).** -->
 
-Agora navegue até a pasta criada e abra no Visual Studio Code, lembre-se de executar o comando `yarn` no seu terminal para instalar todas as dependências, e você terá algo parecido com isso:
+Agora navegue até a pasta criada e abra no Visual Studio Code. Lembre-se de executar o comando `yarn` no seu terminal para instalar todas as dependências, e terá algo parecido com isso:
 
 <p align="center">
   <img  src="./assets/nodejs-example.png">
@@ -48,7 +46,7 @@ Agora navegue até a pasta criada e abra no Visual Studio Code, lembre-se de exe
 
 ### Rotas da aplicação
 
-Agora que você já está com o template clonado, e pronto para continuar, você deve abrir o arquivo app.js, e completar onde não possui código com o código para atingir os objetivos de cada rota.
+Agora que já está com o template clonado, e pronto para continuar, deve abrir o arquivo app.js, e completar onde não possui código com o código para atingir os objectivos de cada rota.
 
 - **`POST /repositories`**: A rota deve receber `title`, `url` e `techs` dentro do corpo da requisição, sendo a URL o link para o github desse repositório. Ao cadastrar um novo projeto, ele deve ser armazenado dentro de um objeto no seguinte formato: `{ id: "uuid", title: 'Desafio Node.js', url: 'http://github.com/...', techs: ["Node.js", "..."], likes: 0 }`; Certifique-se que o ID seja um UUID, e de sempre iniciar os likes como 0.
 
@@ -100,7 +98,7 @@ Para esse desafio temos os seguintes testes:
 
 ## :calendar: Entrega
 
-Esse desafio deve ser entregue a partir do e-mail, envie o link do repositório que você fez suas alterações. Após concluir o desafio, postar o código no Github.
+Este desafio deve ser entregue a partir do e-mail que recebeu. Envie o link do repositório que fez alterações. Após concluir o desafio, poste o código no Github.
 
 <!-- ## Solução do desafio
 
